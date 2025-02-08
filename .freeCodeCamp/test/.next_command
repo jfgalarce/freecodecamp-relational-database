@@ -65,3 +65,4 @@ git remote set-url origin https://github.com/jfgalarce/freecodecamp-relational-d
 git branch -M main
 git push -u origin main
 psql --username=freecodecamp --dbname=postgres
+pg_dump -cC --inserts -U freecodecamp universe > universe.sql
